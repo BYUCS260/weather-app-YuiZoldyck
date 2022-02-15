@@ -1,0 +1,122 @@
+header {
+    height: 10%;
+    color: rgb(43, 48, 124);
+    background-color: rgb(136, 138, 161);
+    position: sticky;
+}
+
+footer {
+    height: 10%;
+    color: rgb(43, 48, 124);
+    background-color: rgb(136, 138, 161);
+    position: sticky;
+    padding: 1% 1% 1% 0.5%;
+}
+
+main {
+    overflow: scroll;
+    height: 80%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    font-size: 30px;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(136, 138, 161);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    justify-content: space-between;
+}
+
+.display{
+    display: flex;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 25px;
+    width: 25px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-right: 1%;
+}
+
+.date {
+    font-weight: bold;
+    color:rgb(11, 13, 51);
+
+}
+
+.time {
+    color: rgb(9, 11, 44);
+    text-align: center;
+}
+
+.temperature {
+    color:rgb(46, 47, 80);
+    text-align: center;
+}
+
+.timeCol {
+    border: solid rgb(89, 90, 138) 1px;
+    margin: 1em;
+    border-radius: 10px;
+}
+
+.col {
+    width: 24%;
+    /* max-height: 19%; */
+    /* min-height: auto; */
+    text-align: center;
+    align-content: center;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    border: solid black 1px;
+    margin-bottom: 1%;
+}
+
